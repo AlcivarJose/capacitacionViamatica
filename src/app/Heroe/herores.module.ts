@@ -1,7 +1,6 @@
 import { NgModule } from "@angular/core";
 import { heroeComponent } from './heroes/heroe.component';
 import { ListadoComponent } from './listado/listado.component';
-import { ContadorComponent } from '../Contador/contador.component';
 import { CommonModule } from "@angular/common";
 
 @NgModule({

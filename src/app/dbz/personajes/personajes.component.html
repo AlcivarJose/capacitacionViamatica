@@ -1,0 +1,8 @@
+<p>personajes works!</p>
+<h1>Prueba Victoria</h1>
+        <hr>
+        <ul>
+            <li *ngFor="let personaje of Personajes">
+                {{personaje.nombre}} - {{personaje.poder|number}}
+            </li>
+        </ul>
