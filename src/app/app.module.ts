@@ -13,7 +13,7 @@ import { DbzModule } from './dbz/dbz.module';
     BrowserModule,
     heroesmodule,
     contadorModule,
-    DbzModule,
+    DbzModule
   ],
   providers: [],
   bootstrap: [AppComponent]

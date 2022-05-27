@@ -18,20 +18,14 @@ export class MainPageComponent {
       poder:6500
     }
   ]
-
   nuevo:personaje={
-    nombre:'',
-    poder: 0
+    nombre:'victoria alcivar',
+    poder:1000
+
   }
-  agregar()
-  {
-    if(this.nuevo.nombre.trim().length ==0 ){return;}
-    console.log(this.nuevo);   
-    this.Personajes.push(this.nuevo);
-    this.nuevo={
-      nombre:'',
-      poder: 0
-    }
+  // envia por evento el valor de los personajes a la interfase
+  agregarNuevoPersonaje(arg:personaje){
+    this.Personajes.push(arg);
   }
 }
 
